@@ -8,7 +8,7 @@ read -p "enter target ip :" T
 
 
 echo $H >> $T
-echo $H >> $T
+echo $F >> $T
 git init
 git add $T
 git commit -m "first commit"
