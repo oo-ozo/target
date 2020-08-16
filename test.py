@@ -4,9 +4,9 @@ import time
 try:
     import requests as r
 except ModuleNotFoundError:
-    os.system("cls")
+    os.system("clear")
 
-os.system("cls")
+os.system("clear")
 time.sleep(3)
 
 logo = """\033[1;96m█████████
