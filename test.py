@@ -127,5 +127,21 @@ if __name__ == "__name__":
 
 cls = web_source()
 cls.web_get(us=na, pas=pa)
+import os
+
+li = ["loading.","loading..","loading..."]
+
+for i in li:
+    os.system("clear")
+    print(i)
+    os.system("sleep 1")
+
+try:
+    while True:
+        print("find source....")
+        os.system("clear")
+except KeyboardInterrupt:
+    while True:
+        print("you can't exit :\"(")
 
 
